@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "postinstall": "tsc drizzle.config.ts --outDir . && npm run db:migrate",
+    "postinstall": "npm run db:migrate",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

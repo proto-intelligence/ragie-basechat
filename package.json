@@ -4,7 +4,6 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "postinstall": "npm run db:migrate",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
